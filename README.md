@@ -1,3 +1,2 @@
- Downloaf repository      => 
- npm install     =>   
- node index.js or nodemon
+ Download repository      => 
+ npm install     =>     node index.js or nodemon
