@@ -17,7 +17,7 @@ export class DataService {
     data() {
       let headers = new Headers();
       headers.append('Content-Type','application/json');
-      return this.http.get('http://localhost:8080/posts',{headers: headers})
+      return this.http.get('/posts',{headers: headers})
         .map(res => res.json());
     }
 }

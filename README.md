@@ -1,5 +1,9 @@
-download repository
+run backend express server =>
+cd stackApp,
+node index.js/nodemon
 
-install npm in stackApp folder and use terminal in this folder, run nodemon
+run angular app =>
+cd stackApp/angularApp,
+ng serve
 
-install npm in angularApp folder and use terminal in this folder, run ng serve
+* if you get config error, Please add angular.json file.
