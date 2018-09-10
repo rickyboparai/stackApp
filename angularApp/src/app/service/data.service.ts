@@ -6,11 +6,14 @@ import 'rxjs/add/operator/map';
 @Injectable({
   providedIn: 'root'
 })
+
+// class
 export class DataService {
 
   constructor(private http: Http) { }
   
-    // Get all posts from the API
+ 
+    //method to get data from API
     data() {
       let headers = new Headers();
       headers.append('Content-Type','application/json');
